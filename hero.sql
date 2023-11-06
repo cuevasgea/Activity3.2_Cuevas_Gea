@@ -154,3 +154,6 @@ VALUES
     (9, 9, 109),  -- Leomord has Blade Armor
     (10, 10, 110);  -- Chou has Feather of Heaven
 
+--3.    Add a new column named item_price to the item table
+ALTER TABLE public.item
+ADD item_price DECIMAL(10, 2);
